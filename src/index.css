@@ -26,3 +26,12 @@ body {
   text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.74);
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .clock {
+    font-size: 4rem;
+  }
+  .clock-container {
+    width: 50vh;
+  }
+}
